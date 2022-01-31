@@ -1,0 +1,45 @@
+:root {
+	--col-black: #121213;
+	--col-dark: #212121;
+	--col-light: #d7dadc;
+	--col-gray: #3a3a3c;
+	--col-light-gray: #818384;
+	--col-correct: #538d4e;
+	--col-present: #b59f3b;
+	--col-absent: #3a3a3c;
+}
+
+body {
+	background-color: var(--col-black) !important;
+	color: var(--col-light) !important;
+}
+
+.empty {
+	background-color: transparent;
+}
+
+.absent {
+	background-color: var(--col-absent);
+}
+
+.present {
+	background-color: var(--col-present);
+}
+
+.correct {
+	background-color: var(--col-correct);
+}
+
+.btn-generic:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.btn-generic:active {
+	opacity: 0.8;
+	transform: scale(97%);
+}
+
+.btn-generic:focus {
+	opacity: 0.8;
+}
